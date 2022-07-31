@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:red;text-align:center;">Indexed Collection</h1>
+<h2>Consider input array and perform the array methods like pop(),Foreach(), etc..,.</h2>
+<p id="demo"></p>
+<script>
+var names=["tejaswi","tulasi","bhagya","sravani"];
+const no=["1","2"];
+document.write(names[0]+"<br>");
+document.write(names[3]+"<br>");
+<!--foreach loop-->
+names.forEach(name => document.write(name+"<br>"));
+var first=no.push("3");
+document.write(no+"<br>");
+var last=no.pop();
+document.write(no+"<br>");
+names=names.concat("1","2","3","4");
+document.write(names+"<br>");
+var k=names.join("  frnds  ");
+document.write(k);
+</script>
+
+</body>
+</html>
+

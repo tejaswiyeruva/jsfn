@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JSON into Vehicle Object</h2>
+<p id="demo"></p>
+<script>
+const Vehicle  = '{ "name": "Toyota Rav4", "engine": "2.5L", "price": 32000 }';
+const obj = JSON.parse(Vehicle);
+document.getElementById("demo").innerHTML = obj.name+"<br>"+obj.engine+"<br> "+obj.price;
+</script>
+
+</body>
+</html>
